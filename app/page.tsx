@@ -75,7 +75,7 @@ export default function Home() {
             <p className="mb-8 max-w-2xl text-xl text-purple-700">👑 Meet $KOALA – the iconic meme coin.
               Community-driven. NFT-powered..</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://jup.ag/swap/SOL-<soon>" className="bg-purple-500 flex gap-x-3 px-3 p-2 justify-center items-center text-white rounded-md hover:bg-purple-600 text-lg">
+              <a href="https://pump.fun/coin/6eNymK4jsqrY4NUS5RYGKrkxrFELA1jTYDzhKTKvpump" className="bg-purple-500 flex gap-x-3 px-3 p-2 justify-center items-center text-white rounded-md hover:bg-purple-600 text-lg">
                 Buy Now <ArrowRight className="ml-2 h-4 w-4" />
               </a>
               <a href="https://t.me/koalauniverse" className="border p-2 rounded-md border-purple-500 text-purple-500 text-lg">
