@@ -2,5 +2,5 @@
   command = "next build"  # Builds the Next.js application
   publish = ".next"       # Netlify will deploy the content from the `.next` directory
 
-[plugins] 
+[[plugins]] 
   package = "@netlify/plugin-nextjs"  # Use the Next.js plugin to handle SSR, SSG, and other Next.js features
