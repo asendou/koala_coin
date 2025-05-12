@@ -180,7 +180,7 @@ export default function Home() {
                   <h3 className="font-medium text-purple-800 mb-2">Token Details</h3>
                   <div className="grid grid-cols-2 gap-2 text-sm">
                     <div className="text-purple-600">Total Supply:</div>
-                    <div className="font-medium">1,000,000,000,000 KOALA</div>
+                    <div className="font-medium">1,000,000,000 KOALA</div>
                     <div className="text-purple-600">Network:</div>
                     <div className="font-medium">Solana</div>
                     <div className="text-purple-600">Tax:</div>
