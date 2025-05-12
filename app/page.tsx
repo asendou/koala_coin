@@ -22,7 +22,7 @@ export default function Home() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Image
-              src="/placeholder.svg?height=40&width=40"
+              src="/placeholder-logo.jpg"
               alt="Koala Logo"
               width={40}
               height={40}
@@ -48,7 +48,7 @@ export default function Home() {
             </Link>
           </nav>
           <div className="flex items-center gap-4">
-            <Button className="bg-purple-500 hover:bg-purple-600">Buy Now</Button> 
+            <Button className="bg-purple-500 hover:bg-purple-600">Buy Now</Button>
           </div>
         </div>
       </header>
@@ -62,7 +62,7 @@ export default function Home() {
             </div>
             <div className="mb-8 animate-bounce">
               <Image
-                src="/placeholder.svg?height=200&width=200"
+                src="/placeholder-logo.jpg"
                 alt="Koala Mascot"
                 width={200}
                 height={200}
@@ -70,16 +70,17 @@ export default function Home() {
               />
             </div>
             <h1 className="mb-4 text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl text-purple-800">
-              Koala — The Cuddly Chaos Coin
+              Koala — Cute. Cuddly. Chaotic. Built on Solana.
             </h1>
-            <p className="mb-8 max-w-2xl text-xl text-purple-700">Too cute to fail. Too chaotic to ignore.</p>
+            <p className="mb-8 max-w-2xl text-xl text-purple-700">👑 Meet $KOALA – the iconic meme coin.
+              Community-driven. NFT-powered..</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-purple-500 hover:bg-purple-600 text-lg">
+              <a href="https://jup.ag/swap/SOL-<soon>" className="bg-purple-500 flex gap-x-3 px-3 p-2 justify-center items-center text-white rounded-md hover:bg-purple-600 text-lg">
                 Buy Now <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-              <Button size="lg" variant="outline" className="border-purple-500 text-purple-500 text-lg">
-                Join the Community <Discord className="ml-2 h-4 w-4" />
-              </Button>
+              </a>
+              <a href="https://t.me/koalauniverse" className="border p-2 rounded-md border-purple-500 text-purple-500 text-lg">
+                Join the Community
+              </a>
             </div>
           </div>
         </section>
@@ -110,7 +111,7 @@ export default function Home() {
                   <div className="absolute -inset-1 rounded-lg bg-gradient-to-r from-pink-300 via-purple-300 to-blue-300 opacity-75 blur"></div>
                   <div className="relative rounded-lg bg-white p-6">
                     <Image
-                      src="/placeholder.svg?height=300&width=400"
+                      src="/placeholder-logo.jpg"
                       alt="Koala Story"
                       width={400}
                       height={300}
@@ -131,11 +132,10 @@ export default function Home() {
               <div className="md:w-1/2 h-[400px] flex items-center justify-center">
                 <PieChart
                   data={[
-                    { name: "Liquidity", value: 40, color: "#4ade80" },
-                    { name: "Community", value: 30, color: "#60a5fa" },
-                    { name: "Marketing", value: 15, color: "#f472b6" },
-                    { name: "Team", value: 10, color: "#a78bfa" },
-                    { name: "Charity", value: 5, color: "#fbbf24" },
+                    { name: "Community", value: 91, color: "#60a5fa" },
+                    { name: "Marketing & Collabs", value: 3, color: "#ff00ff" },
+                    { name: "Web3 Development", value: 3, color: "#f472b6" },
+                    { name: "Team", value: 3, color: "#a78bfa" }, 
                   ]}
                 />
               </div>
@@ -144,37 +144,36 @@ export default function Home() {
                   <div className="flex items-center gap-2">
                     <div className="h-4 w-4 rounded-full bg-purple-400"></div>
                     <div className="flex-1">
-                      <h3 className="font-medium text-purple-800">Liquidity (40%)</h3>
-                      <p className="text-sm text-purple-600">Locked for 1 year to ensure trading stability</p>
+                      <h3 className="font-medium text-purple-800">Community (91%)</h3>
+                      <p className="text-sm text-purple-600">Reserved for community initiatives. The community is the heart of this project.
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-center gap-2">
                     <div className="h-4 w-4 rounded-full bg-blue-400"></div>
                     <div className="flex-1">
-                      <h3 className="font-medium text-purple-800">Community (30%)</h3>
-                      <p className="text-sm text-purple-600">Rewards, airdrops, and community initiatives</p>
+                      <h3 className="font-medium text-purple-800">Marketing and Collabs</h3>
+                      <p className="text-sm text-purple-600">Used for promotional campaigns, partnerships, influencer collaborations, giveaways, and expanding project visibility globally.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="h-4 w-4 rounded-full bg-blue-400"></div>
+                    <div className="flex-1">
+                      <h3 className="font-medium text-purple-800">Web3 Development</h3>
+                      <p className="text-sm text-purple-600">      Allocated for building smart contracts, dApps, infrastructure, audits, and long-term technical innovation that supports the Web3 ecosystem.                      .
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-center gap-2">
                     <div className="h-4 w-4 rounded-full bg-pink-400"></div>
                     <div className="flex-1">
-                      <h3 className="font-medium text-purple-800">Marketing (15%)</h3>
-                      <p className="text-sm text-purple-600">Promotions, partnerships, and awareness</p>
+                      <h3 className="font-medium text-purple-800">Team (3%)</h3>
+                      <p className="text-sm text-purple-600">Incentives for the development and management team. This portion is typically locked and released gradually (vesting schedule).
+                      </p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <div className="h-4 w-4 rounded-full bg-purple-400"></div>
-                    <div className="flex-1">
-                      <h3 className="font-medium text-purple-800">Team (10%)</h3>
-                      <p className="text-sm text-purple-600">Development and operations (vested)</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <div className="h-4 w-4 rounded-full bg-yellow-400"></div>
-                    <div className="flex-1">
-                      <h3 className="font-medium text-purple-800">Charity (5%)</h3>
-                      <p className="text-sm text-purple-600">Supporting koala conservation efforts</p>
-                    </div>
+                 
                   </div>
                 </div>
                 <div className="mt-6 p-4 bg-white rounded-lg border border-purple-200">
@@ -185,10 +184,10 @@ export default function Home() {
                     <div className="text-purple-600">Network:</div>
                     <div className="font-medium">Solana</div>
                     <div className="text-purple-600">Tax:</div>
-                    <div className="font-medium">2% Buy / 2% Sell</div>
+                    <div className="font-medium">0% Buy / 0% Sell</div>
                   </div>
                 </div>
-              </div>
+              
             </div>
           </div>
         </section>
@@ -207,31 +206,8 @@ export default function Home() {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold mb-2 text-purple-800">Step 1: Create a Wallet</h3>
                   <p className="text-purple-700 mb-4">
-                    Download and set up MetaMask or another Solana wallet of your choice.
-                  </p>
-                  <div className="flex gap-2">
-                    <Image
-                      src="/placeholder.svg?height=40&width=40"
-                      alt="MetaMask"
-                      width={40}
-                      height={40}
-                      className="rounded-md"
-                    />
-                    <Image
-                      src="/placeholder.svg?height=40&width=40"
-                      alt="Trust Wallet"
-                      width={40}
-                      height={40}
-                      className="rounded-md"
-                    />
-                    <Image
-                      src="/placeholder.svg?height=40&width=40"
-                      alt="Coinbase Wallet"
-                      width={40}
-                      height={40}
-                      className="rounded-md"
-                    />
-                  </div>
+                    Download and set up Phantom or another Solana wallet of your choice.
+                  </p> 
                 </CardContent>
               </Card>
 
@@ -244,31 +220,8 @@ export default function Home() {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold mb-2 text-purple-800">Step 2: Get Some SOL</h3>
                   <p className="text-purple-700 mb-4">
-                    Purchase Ethereum from an exchange and transfer it to your wallet.
-                  </p>
-                  <div className="flex gap-2">
-                    <Image
-                      src="/placeholder.svg?height=40&width=40"
-                      alt="Coinbase"
-                      width={40}
-                      height={40}
-                      className="rounded-md"
-                    />
-                    <Image
-                      src="/placeholder.svg?height=40&width=40"
-                      alt="Binance"
-                      width={40}
-                      height={40}
-                      className="rounded-md"
-                    />
-                    <Image
-                      src="/placeholder.svg?height=40&width=40"
-                      alt="Kraken"
-                      width={40}
-                      height={40}
-                      className="rounded-md"
-                    />
-                  </div>
+                    Purchase Solana from an exchange and transfer it to your wallet.
+                  </p> 
                 </CardContent>
               </Card>
 
@@ -281,31 +234,8 @@ export default function Home() {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold mb-2 text-purple-800">Step 3: Swap on a DEX</h3>
                   <p className="text-purple-700 mb-4">
-                    Connect your wallet to Phantom or another DEX and swap SOL for KOALA.
-                  </p>
-                  <div className="flex gap-2">
-                    <Image
-                      src="/placeholder.svg?height=40&width=40"
-                      alt="Uniswap"
-                      width={40}
-                      height={40}
-                      className="rounded-md"
-                    />
-                    <Image
-                      src="/placeholder.svg?height=40&width=40"
-                      alt="SushiSwap"
-                      width={40}
-                      height={40}
-                      className="rounded-md"
-                    />
-                    <Image
-                      src="/placeholder.svg?height=40&width=40"
-                      alt="1inch"
-                      width={40}
-                      height={40}
-                      className="rounded-md"
-                    />
-                  </div>
+                    Connect your wallet to Phantom or another DEX and swap SOL for $KOALA.
+                  </p> 
                 </CardContent>
               </Card>
             </div>
@@ -331,21 +261,8 @@ export default function Home() {
               spread the cuddly chaos across the crypto world.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
-          
-
-              <Card className="border-purple-200 hover:shadow-lg transition-shadow">
-                <CardContent className="p-6 flex flex-col items-center text-center">
-                  <div className="h-12 w-12 rounded-full bg-blue-100 flex items-center justify-center mb-4">
-                    <Telegram className="h-6 w-6 text-blue-500" />
-                  </div>
-                  <h3 className="text-xl font-bold mb-2 text-purple-800">Telegram</h3>
-                  <p className="text-purple-700 mb-4">Get real-time updates and chat with 15,000+ holders</p>
-                  <Button className="bg-blue-500 hover:bg-blue-600">
-                    Join Telegram <ExternalLink className="ml-2 h-4 w-4" />
-                  </Button>
-                </CardContent>
-              </Card>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+ 
 
               <Card className="border-purple-200 hover:shadow-lg transition-shadow">
                 <CardContent className="p-6 flex flex-col items-center text-center">
@@ -353,10 +270,33 @@ export default function Home() {
                     <Twitter className="h-6 w-6 text-blue-500" />
                   </div>
                   <h3 className="text-xl font-bold mb-2 text-purple-800">Twitter</h3>
-                  <p className="text-purple-700 mb-4">Follow us for announcements and memes with 25,000+ followers</p>
+                  <p className="text-purple-700 mb-4">Follow us for announcements and memes</p>
+                  
+                  
+                  <Link href="https://x.com/koala_on_sol" className="text-purple-200 hover:text-white flex items-center gap-2"> 
                   <Button className="bg-blue-500 hover:bg-blue-600">
                     Follow Twitter <ExternalLink className="ml-2 h-4 w-4" />
                   </Button>
+                  </Link>
+                </CardContent>
+                
+
+              </Card>
+              
+              <Card className="border-purple-200 hover:shadow-lg transition-shadow">
+                <CardContent className="p-6 flex flex-col items-center text-center">
+                  <div className="h-12 w-12 rounded-full bg-blue-100 flex items-center justify-center mb-4">
+                    <Telegram className="h-6 w-6 text-blue-500" />
+                  </div>
+                  <h3 className="text-xl font-bold mb-2 text-purple-800">Telegram</h3>
+                  <p className="text-purple-700 mb-4">Join us for interacting with community.</p>
+                  
+                  
+                  <Link href="https://t.me/koalauniverse" className="text-purple-200 hover:text-white flex items-center gap-2"> 
+                  <Button className="bg-blue-500 hover:bg-blue-600">
+                    Join Telegram <ExternalLink className="ml-2 h-4 w-4" />
+                  </Button>
+                  </Link>
                 </CardContent>
               </Card>
             </div>
@@ -382,7 +322,7 @@ export default function Home() {
                       <div className="absolute top-1/2 -right-4 h-8 w-8 -translate-y-1/2 rounded-full bg-purple-500 hidden md:block"></div>
                       <h3 className="text-xl font-bold mb-2 text-purple-800">Phase 1: Take over the forest 🐨🌳</h3>
                       <ul className="list-disc list-inside text-purple-700 space-y-2">
-                        <li>Token launch on Uniswap</li>
+                        <li>Token launch on Pump.fun</li>
                         <li>Community building (1,000+ holders)</li>
                         <li>Website launch and social media setup</li>
                         <li>First meme contest with $KOALA prizes</li>
@@ -465,10 +405,10 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-purple-500 hover:bg-purple-600 text-lg">
                 Buy $KOALA Now <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-              <Button size="lg" variant="outline" className="border-purple-500 text-purple-500 text-lg">
-                Read the Whitepaper <ExternalLink className="ml-2 h-4 w-4" />
-              </Button>
+              </Button> 
+              <a href="/whitepaper.pdf" className="bg-purple-500 flex gap-x-3 px-3 p-2 justify-center items-center text-white rounded-md hover:bg-purple-600 text-lg">
+                Read White Paper
+              </a>
             </div>
           </div>
         </section>
@@ -481,7 +421,7 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Image
-                  src="/placeholder.svg?height=40&width=40"
+                  src="/placeholder-logo.jpg"
                   alt="Koala Logo"
                   width={40}
                   height={40}
@@ -520,19 +460,14 @@ export default function Home() {
 
             <div>
               <h3 className="text-lg font-bold mb-4">Community</h3>
-              <ul className="space-y-2">
+              <ul className="space-y-2"> 
                 <li>
-                  <Link href="#" className="text-purple-200 hover:text-white flex items-center gap-2">
-                    <Discord className="h-4 w-4" /> Discord
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-purple-200 hover:text-white flex items-center gap-2">
+                  <Link href="https://t.me/koalauniverse" className="text-purple-200 hover:text-white flex items-center gap-2">
                     <Telegram className="h-4 w-4" /> Telegram
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-purple-200 hover:text-white flex items-center gap-2">
+                  <Link href="https://x.com/koala_on_sol" className="text-purple-200 hover:text-white flex items-center gap-2">
                     <Twitter className="h-4 w-4" /> Twitter
                   </Link>
                 </li>
