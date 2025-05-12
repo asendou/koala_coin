@@ -242,11 +242,8 @@ export default function Home() {
 
             <div className="mt-8 p-4 bg-purple-100 rounded-lg text-center">
               <p className="text-purple-800">
-                Contract Address: <span className="font-mono bg-white px-2 py-1 rounded text-sm">coming soon</span>
-                <Button variant="ghost" size="sm" className="ml-2 text-purple-700">
-                  <span className="sr-only">Copy</span>
-                  Copy
-                </Button>
+                Contract Address: <span className="font-mono bg-white px-2 py-1 rounded text-sm">6eNymK4jsqrY4NUS5RYGKrkxrFELA1jTYDzhKTKvpump</span>
+                
               </p>
             </div>
           </div>
