@@ -152,7 +152,7 @@ export default function Home() {
                   <div className="flex items-center gap-2">
                     <div className="h-4 w-4 rounded-full bg-blue-400"></div>
                     <div className="flex-1">
-                      <h3 className="font-medium text-purple-800">Marketing and Collabs</h3>
+                      <h3 className="font-medium text-purple-800">Marketing and Collabs (3%)</h3>
                       <p className="text-sm text-purple-600">Used for promotional campaigns, partnerships, influencer collaborations, giveaways, and expanding project visibility globally.
                       </p>
                     </div>
@@ -160,7 +160,7 @@ export default function Home() {
                   <div className="flex items-center gap-2">
                     <div className="h-4 w-4 rounded-full bg-blue-400"></div>
                     <div className="flex-1">
-                      <h3 className="font-medium text-purple-800">Web3 Development</h3>
+                      <h3 className="font-medium text-purple-800">Web3 Development (3%)</h3>
                       <p className="text-sm text-purple-600">      Allocated for building smart contracts, dApps, infrastructure, audits, and long-term technical innovation that supports the Web3 ecosystem.                      .
                       </p>
                     </div>
